@@ -12,11 +12,16 @@
    - name: Volha Chykina
      orcid: 0000-0002-7612-9180
      affiliation: 2
+   - name: Micah Gell-Redman
+     orcid: 0000-0002-4427-0630
+     affiliation: 3
   affiliations:
    - name: University of Michigan
      index: 1
    - name: Pennsylvania State University
      index: 2
+   - name: University of Georgia
+     index: 3
   date: 1 October 2017
   bibliography: paper.bib
 ---

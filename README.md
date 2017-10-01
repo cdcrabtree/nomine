@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/nomine) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/nomine?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) 
+[![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/nomine) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/nomine?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) [![DOI](https://zenodo.org/badge/105415000.svg)](https://zenodo.org/badge/latestdoi/105415000)
 
 # nomine: Functions to use the NamePrism API for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
 

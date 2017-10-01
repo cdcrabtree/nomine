@@ -2,4 +2,3 @@
 
 export(get_ethnicities)
 export(get_nationalities)
-importFrom("utils", "setTxtProgressBar", "txtProgressBar")

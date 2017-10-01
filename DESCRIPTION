@@ -1,0 +1,21 @@
+Package: nomine
+Type: Package
+Title: Use the NamePrism API to Classify Names by U.S. Ethnicity or Leaf Nationality
+Version: 0.5.0
+Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
+                     email = "ccrabtr@umich.edu"),
+              person("Volha", "Chykina", role = c("aut")))
+Description: Functions to use the NamePrism API for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    RCurl,
+    utils
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/cdcrabtree/nomine
+BugReports: http://github.com/cdcrabtree/nomine/issues

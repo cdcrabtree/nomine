@@ -5,7 +5,7 @@
 ^revdep$
 ^_config\.yml$
 ^\.gitattributes\.R$
-^cran-comments\.md$
+^cran_comments\.md$
 ^paper$
 ^License\.md$
 ^NEWS\.md$

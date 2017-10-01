@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/nomine) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/nomine?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) [![DOI](https://zenodo.org/badge/105415000.svg)](https://zenodo.org/badge/latestdoi/105415000)
 
-# nomine: Functions to use the NamePrism API for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
+# nomine: Functions to classify names based on 6 U.S. ethnicities or 39 leaf nationalities.
 
 Large social science literatures are devoted to examining the role of an individual's ethnicity or nationality on a host of behaviors and circumstances (e.g., Adida et al 2016; Habyarimana et al 2009; Hochschild 1996; McConnaughy et al 2010). This means that researchers often want to know the ethnicities or nationalities of individuals. Not all pre-existing datasets contain this information, though, and it can be difficult for scholars to locate that data if they work with exotic samples. Even if reseachers do not have information about the ethnicity or nationality of individuals, though, they often know their names. Thanks to recent developments in machine learning, these names can be used to probabilistically identify the ethnic or national origins of their bearers. These exciting advancements can potentially catalyze existing research programs on race, ethnicity, and coethnicity.
 

@@ -1,5 +1,5 @@
 ---
-  title: 'Nomine: Functions to use the NamePrism API for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.'
+  title: 'Nomine: Functions to classify names based on 6 U.S. ethnicities or 39 leaf nationalities.'
   tags:
     - name classifier
     - API access

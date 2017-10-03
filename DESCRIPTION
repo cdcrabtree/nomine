@@ -5,7 +5,7 @@ Version: 0.5.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Volha", "Chykina", role = c("aut")))
-Description: Functions to use the NamePrism API for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
+Description: Functions to use the 'NamePrism' API <http:http://name-prism.com/api> for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -16,6 +16,5 @@ Imports:
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown
-VignetteBuilder: knitr
 URL: http://github.com/cdcrabtree/nomine
 BugReports: http://github.com/cdcrabtree/nomine/issues

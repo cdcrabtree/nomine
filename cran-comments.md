@@ -1,7 +1,11 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-- Addressed 2 Notes by adding importFrom() entries to my NAMESPACE file.
+- Addressed enclosed software names in single quotes.
+- Added an URL for the API in my description.
+- Removed the extra line between YEAR and COPYRIGHT HOLDER in the LICENSE file.
+- Fixed the VignetteBuilder issue.
+- Resolved an empty URL problem.
 
 ## Test environments
 * local OS X install

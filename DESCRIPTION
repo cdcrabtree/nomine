@@ -1,6 +1,6 @@
 Package: nomine
 Type: Package
-Title: Use the NamePrism API to Classify Names by U.S. Ethnicity or Leaf Nationality
+Title: Classify Names by U.S. Ethnicity or Leaf Nationality
 Version: 0.5.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),

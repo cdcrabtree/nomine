@@ -1,3 +1,8 @@
+## Resubmission
+This is a resubmission. In this version I have:
+
+- Addressed 2 Notes by adding importFrom() entries to my NAMESPACE file.
+
 ## Test environments
 * local OS X install
 * ubuntu 12.04 (on travis-ci)

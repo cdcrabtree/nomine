@@ -2,3 +2,5 @@
 
 export(get_ethnicities)
 export(get_nationalities)
+importFrom(utils,setTxtProgressBar)
+importFrom(utils,txtProgressBar)

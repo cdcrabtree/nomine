@@ -7,6 +7,7 @@
 #'@examples
 #' x <- c("Charles Crabtree", "Volha Chykina")
 #' get_ethnicities(x)
+#'@importFrom utils setTxtProgressBar txtProgressBar
 #'@export
 
 get_ethnicities <- function(x) {

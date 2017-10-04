@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/nomine) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/nomine?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) [![DOI](https://zenodo.org/badge/105415000.svg)](https://zenodo.org/badge/latestdoi/105415000) [![status](http://joss.theoj.org/papers/d8c61f24d1d5f325d856acd2aea9e42c/status.svg)](http://joss.theoj.org/papers/d8c61f24d1d5f325d856acd2aea9e42c/)
+[![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/nomine) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/nomine?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/)
+![](http://www.r-pkg.org/badges/version/nomine) ![](http://cranlogs.r-pkg.org/badges/grand-total/nomine) ![](http://cranlogs.r-pkg.org/badges/nomine)
+[![DOI](https://zenodo.org/badge/105415000.svg)](https://zenodo.org/badge/latestdoi/105415000) [![status](http://joss.theoj.org/papers/d8c61f24d1d5f325d856acd2aea9e42c/status.svg)](http://joss.theoj.org/papers/d8c61f24d1d5f325d856acd2aea9e42c/)
 
 # nomine: Functions to classify names based on 6 U.S. ethnicities or 39 leaf nationalities.
 

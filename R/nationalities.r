@@ -6,7 +6,8 @@
 #'@return An object that classifies inputted names according inputted name belongs to 39 different leaf nationalities.
 #'@examples
 #' x <- c("Charles Crabtree", "Volha Chykina")
-#' get_nationalities(x)
+#' y <- get_nationalities(x)
+#' y
 #'@importFrom utils setTxtProgressBar txtProgressBar
 #'@export
 
@@ -54,4 +55,5 @@ get_nationalities <- function(x) {
                           r[[37]][2], r[[38]][2], r[[39]][2])
     setTxtProgressBar(pb, i)
   }
+  return(nationalities)
 }

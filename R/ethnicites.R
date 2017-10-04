@@ -6,7 +6,8 @@
 #'@return An object that contains that classifies any inputted names(s) accoridng to 6 different U.S. ethnicities.
 #'@examples
 #' x <- c("Charles Crabtree", "Volha Chykina")
-#' get_ethnicities(x)
+#' y <- get_ethnicities(x)
+#' y
 #'@importFrom utils setTxtProgressBar txtProgressBar
 #'@export
 
@@ -26,4 +27,5 @@ get_ethnicities <- function(x) {
                             r[[4]][2], r[[5]][2], r[[6]][2])
       setTxtProgressBar(pb, i)
     }
+  return(ethnicities)
 }

@@ -1,7 +1,7 @@
 Package: nomine
 Type: Package
 Title: Classify Names by U.S. Ethnicity or Leaf Nationality
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Volha", "Chykina", role = c("aut")),

@@ -17,7 +17,8 @@ Returns an object that classifies inputted names according to 39 different leaf 
 }
 \examples{
 x <- c("Charles Crabtree", "Volha Chykina")
-get_nationalities(x)
+y <- get_nationalities(x)
+y
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

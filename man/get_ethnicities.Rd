@@ -17,7 +17,8 @@ Returns an object that classifies any inputted name(s) according to 6 different 
 }
 \examples{
 x <- c("Charles Crabtree", "Volha Chykina")
-get_ethnicities(x)
+y <- get_ethnicities(x)
+y
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

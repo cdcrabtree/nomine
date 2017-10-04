@@ -1,7 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-- Fixed the URL for the API in my description.
+- Added a contributor to the DESCRIPTION file.
 
 ## Test environments
 * local OS X install

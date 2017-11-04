@@ -1,12 +1,12 @@
 Package: nomine
 Type: Package
-Title: Classify Names by U.S. Ethnicity or Leaf Nationality
-Version: 0.5.1
+Title: Classify Names by Gender, U.S. Ethnicity, and Leaf Nationality
+Version: 1.0.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Volha", "Chykina", role = c("aut")),
               person("Micah", "Gell-Redman", role = c("aut")))
-Description: Functions to use the 'NamePrism' API <http://name-prism.com/api> for classifying names based on 6 U.S. ethnicities or 39 leaf nationalities.
+Description: Functions to use the 'NamePrism' API <http://name-prism.com/api> or 'NameSor' API <https://api.namsor.com/namsor/faces/viewapikey.xhtml> for classifying names based on gender, 6 U.S. ethnicities, or 39 leaf nationalities.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

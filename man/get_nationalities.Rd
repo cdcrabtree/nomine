@@ -4,22 +4,27 @@
 \alias{get_nationalities}
 \title{Classifies names based on 39 leaf nationalities}
 \usage{
-get_nationalities(x)
+get_nationalities(x, t = NULL)
 }
 \arguments{
-\item{x}{A vector of names.}
+\item{x}{A vector of names,  in the form "First_name Last_name". If there are multiple segments separated by white spaces, only the first and the last segments are taken into account.}
+
+\item{t}{A string with the API access token. The default value is NULL, although you must set your own token. A Name-Prism API token can be obtained for research purposes to overcome the limit of anonymous API use. Please visit \url{http://www.name-prism.com/api} for more details.}
 }
 \value{
-An object that classifies inputted names according inputted name belongs to 39 different leaf nationalities.
+A data frame of dimensions length(x)*42, with the probability of belonging to each of the 39 different leaf CEL groups of the Name-Prism taxonomy (see \url{http://www.name-prism.com/about}). Errors (e.g. connection is interrupted, invalid tokens) are handled as NA.
 }
 \description{
 Returns an object that classifies inputted names according to 39 different leaf nationalities.
 }
 \examples{
-x <- c("Charles Crabtree", "Volha Chykina")
-y <- get_nationalities(x)
+# Vector of names.
+x <- c("Charles Crabtree", "Volha Chykina", "Christian Chacua", "Christian Mauricio Chacua")
+# Using the API token a1a2a34aa56789aa (you should get your own token)
+y <- get_nationalities(x, t="a1a2a34aa56789aa")
 y
+"Christian Chacua" and "Christian Mauricio Chacua" have the same probabilities as "Mauricio" is not taken into account.
 }
 \author{
-Charles Crabtree \email{ccrabtr@umich.edu}
+Charles Crabtree \email{ccrabtr@umich.edu} and Christian Chacua \email{christian-mauricio.chacua-delgado@u-bordeaux.fr}
 }

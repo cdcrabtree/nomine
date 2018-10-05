@@ -23,7 +23,7 @@ x <- c("Charles Crabtree", "Volha Chykina", "Christian Chacua", "Christian Mauri
 # Using the API token a1a2a34aa56789aa (you should get your own token)
 y <- get_nationalities(x, t="a1a2a34aa56789aa")
 y
-"Christian Chacua" and "Christian Mauricio Chacua" have the same probabilities as "Mauricio" is not taken into account.
+# "Christian Chacua" and "Christian Mauricio Chacua" have the same probabilities as "Mauricio" is not taken into account.
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu} and Christian Chacua \email{christian-mauricio.chacua-delgado@u-bordeaux.fr}

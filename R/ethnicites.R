@@ -11,7 +11,7 @@
 #' # Using the API token a1a2a34aa56789aa (you should get your own token)
 #' y <- get_ethnicities(x, t="a1a2a34aa56789aa")
 #' y
-#' "Christian Chacua" and "Christian Mauricio Chacua" have the same probabilities as "Mauricio" is not taken into account.
+#' # "Christian Chacua" and "Christian Mauricio Chacua" have the same probabilities as "Mauricio" is not taken into account.
 #'@importFrom utils setTxtProgressBar txtProgressBar
 #'@export
 

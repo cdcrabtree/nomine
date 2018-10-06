@@ -1,11 +1,12 @@
 Package: nomine
 Type: Package
 Title: Classify Names by Gender, U.S. Ethnicity, and Leaf Nationality
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Volha", "Chykina", role = c("aut")),
-              person("Micah", "Gell-Redman", role = c("aut")))
+              person("Micah", "Gell-Redman", role = c("aut")),
+              person("Christian", "Chacua", role = c("aut"), email = "christian-mauricio.chacua-delgado@u-bordeaux.fr"))
 Description: Functions to use the 'NamePrism' API <http://name-prism.com/api> or 'NameSor' API <https://api.namsor.com/namsor/faces/viewapikey.xhtml> for classifying names based on gender, 6 U.S. ethnicities, or 39 leaf nationalities.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,8 +14,9 @@ LazyData: true
 Imports:
     httr,
     RCurl,
+    jsonlite,
     utils
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Suggests: knitr,
     rmarkdown
 URL: http://github.com/cdcrabtree/nomine

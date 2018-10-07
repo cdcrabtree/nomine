@@ -17,10 +17,10 @@
 
 get_nationalities <- function(x, t=NULL) {
   if(is.null(t)){
-    print("Please set a valid API token")
-  }else{
-    t<-as.character(t)
+    stop("Please set a valid API token (t)")
   }
+
+  t<-as.character(t)
   pb <- txtProgressBar(min = 0, max = length(x), style = 3)
   nationalities <- data.frame(matrix(NA, nrow = length(x), ncol = 42))
   colnames(nationalities) <- c("input", "encoded_name", "url",
@@ -48,7 +48,8 @@ get_nationalities <- function(x, t=NULL) {
     address <- paste0("http://www.name-prism.com/api_token/nat/json/",t,"/", encoded_name)
     r <- tryCatch(as.data.frame(jsonlite::fromJSON(address)),
                   error=function(e){
-                  data.frame(matrix(NA, nrow = 1, ncol = 39))
+                    warning(paste0("Error: the name '", x[i], "' has been handled as NA. \n Please check your internet connection and your Name-Prism API access token" ), call. = FALSE, immediate. = TRUE)
+                    data.frame(matrix(NA, nrow = 1, ncol = 39))
                   })
     nationalities[i, ] <- c(x[i], encoded_name, address, r[1,])
     setTxtProgressBar(pb, i)

@@ -27,7 +27,7 @@ devtools::install_github("cdcrabtree/nomine")
 ```
 
 ## Support or Contact
-Please use the issue tracker for problems, questions, or feature requests. If you would rather email with questions or comments, you can contact [Charles Crabtree](mailto:ccrabtr@umich.edu) and he will try to address the issue.
+Please use the issue tracker for problems, questions, or feature requests. If you would rather email with questions or comments, you can contact [Charles Crabtree](mailto:ccrabtr@umich.edu) or [Christian Chacua](mailto:christian-mauricio.chacua-delgado@u-bordeaux.fr) and they will try to address the issue.
 
 If you would like to contribute to the package, that is great! We welcome pull requests and new developers.
 
